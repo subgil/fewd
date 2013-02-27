@@ -1,0 +1,40 @@
+
+BACKGROUND IMAGE:
+
+body {
+     background-image:url(../images/bg_wrapper.png), repeat-x;
+}
+
+OR, WITH 2 IMAGES:
+
+body {
+     background-image:url(../images/bg_wrapper.png), url(../images/bg_body.jpg);
+     background-repeat: repeat-x, repeat;
+}
+
+
+
+IMAGE REPLACEMENT:
+
+html:
+<h1><a href="#">Logoimage</h1>
+
+css:
+.logo a {
+     width:291px;
+     height:54px;
+     background: url(../images/logo.png);
+     text-indent: 100%;
+     white-space: nowrap;
+     overflow: hidden;
+     margin:40px auto 50px auto;
+     float: left;
+}
+
+
+
+BORDER:
+
+border: 1px solid #000;
+
+
